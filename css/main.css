@@ -9,18 +9,9 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-#main {
-    float: right;
-    width: 760px;
-    overflow: hidden;
-    padding: 1px;
-    border: solid 1px #e0c6a6;
-    background: #fff;
-}
-
 .main {
     float: right;
-    width: 760px;
+    width: 1200px;
     overflow: hidden;
     padding: 1px;
     border: solid 1px #e0c6a6;
@@ -29,13 +20,33 @@ a:-webkit-any-link {
 
 #body {
     display: block;
-    width: 990px;
+    width: 1420px;
     margin: 0 auto;
     padding: 9px;
     
 }
 
 body {
+    background: url(../images/body_bg.jpg) top;
+    color: #362e2b;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Console, Verdana, Courier New;
+    margin: 0;
+    text-align: left;
+}
+
+.body {
+    background: url(../images/body_bg.jpg) top;
+    color: #362e2b;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Console, Verdana, Courier New;
+    margin: 0;
+    text-align: left;
+}
+
+.background {
     background: url(../images/body_bg.jpg) top;
     color: #362e2b;
     text-align: center;
@@ -52,20 +63,16 @@ body {
 }
 
 #side {
-    width: 200px;
     overflow: hidden;
 }
 
 .side_iframe {
     width: 100%;
-    height: 200px;
     overflow: hidden;
 }
 
 .side {
-    float: left;
-    width: 200px;
-    line-height: 120%;
+    margin:0 0 10px;
 }
 
 .side ul {
@@ -73,7 +80,7 @@ body {
     padding: 0px;
 }
 
-#side a {
+.side a {
     color: #6a3906;
 }
 
