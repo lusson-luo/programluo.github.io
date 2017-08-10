@@ -1,0 +1,42 @@
+﻿.title {
+    height: 120px;
+    background: url(../images/body_bg.jpg) top;
+}
+
+.menuLsit {
+    height: 80px;
+    margin: 0 0 0 15px;
+}
+
+.articlelist h1 {
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: bold;
+    border-bottom: 4px solid #aaa;
+}
+
+article {
+    height: 140px;
+    border-bottom: 1px solid #aaa;
+}
+article h3{
+	font-size: 14px;
+	font-weight: bold;
+}
+.pagelist {
+    height: 400px margin:0 0 10px;
+}
+
+.pagelist ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pagelist a {
+    color: #6a3906;
+}
+
+.pagelist ul {
+    margin: 0px;
+    padding: 0px;
+}
