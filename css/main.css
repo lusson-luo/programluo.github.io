@@ -21,7 +21,7 @@
 }
 
 article h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -30,7 +30,7 @@ article h3 a {
 }
 
 .pagelist {
-    height: 400px margin:0 0 10px;
+    height: 400px； margin:0 0 10px;
 }
 
 .pagelist h1 {
@@ -64,9 +64,47 @@ article h3 a {
 
 .article_details p {
     line-height: 24px;
+    font-family: "微软雅黑";
+    font-size: 16px;
 }
 
 .article_details content .img {
     background-size: 100%;
     background: url(../zwpx/zwpx.jpg) no-repeat;
+}
+
+.game-list {
+    height: 200px;
+    
+    border-bottom: 1px solid #aaa;
+}
+
+.game-list img {
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin: 10px 10px 10px 10px;
+}
+
+.game-list ul {
+	float: right;
+	width: 900px;
+	margin: 10px 10px 10px 10px;
+	list-style-type: none;
+}
+
+.game-list ul h3 {
+	font-size: 16px;
+    font-weight: bold;
+}
+
+.game h1{
+	font-size: 16px;
+    line-height: 36px;
+    font-weight: bold;
+    border-bottom: 4px solid #aaa;
+}
+
+.game h1 a {
+    color: black;
 }
